@@ -25,7 +25,9 @@
     "babel-plugin-parameter-decorator"
   ],
   "files": [
-    "*.js",
+    "lib/*.js",
+    "mjs-wrappers/*.mjs",
+    "index.d.ts",
     "./README.md"
   ],
   "scripts": {
