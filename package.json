@@ -5,8 +5,14 @@
   "type": "commonjs",
   "main": "./index.js",
   "exports": {
-    ".": "./index.js",
-    "./babel-preset-react-app-override": "./babel-preset-react-app-override.js"
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    },
+    "./babel-preset-react-app-override": {
+      "require": "./babel-preset-react-app-override.js",
+      "import": "./babel-preset-react-app-override.mjs"
+    }
   },
   "sideEffects": false,
   "keywords": [
