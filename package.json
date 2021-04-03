@@ -1,0 +1,44 @@
+{
+  "name": "@redtea/craco-parameter-decorator",
+  "version": "0.0.0",
+  "description": "This craco plugin will set up babel-plugin-parameter-decorator for your project.",
+  "type": "commonjs",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./babel-preset-react-app-override": "./babel-preset-react-app-override.js"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "craco",
+    "react",
+    "react-app",
+    "typescrit",
+    "babel",
+    "babel-plugin-parameter-decorator"
+  ],
+  "files": [
+    "*.js",
+    "./README.md"
+  ],
+  "scripts": {
+    "preversion": "package-check"
+  },
+  "author": "Kirill Khoroshilov <mr.hokid@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/org-redtea/craco-parameter-decorator.git"
+  },
+  "peerDependencies": {
+    "@craco/craco": "~5 || ~6",
+    "react-scripts": "~3 || ~4"
+  },
+  "devDependencies": {
+    "@skypack/package-check": "0.2.2",
+    "shx": "0.3.3"
+  },
+  "dependencies": {
+    "babel-plugin-parameter-decorator": "1.0.16"
+  }
+}
