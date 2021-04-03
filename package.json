@@ -7,12 +7,12 @@
   "main": "./index.js",
   "exports": {
     ".": {
-      "require": "./index.js",
-      "import": "./index.mjs"
+      "require": "./lib/index.js",
+      "import": "./mjs-wrappers/index.mjs"
     },
     "./babel-preset-react-app-override": {
-      "require": "./babel-preset-react-app-override.js",
-      "import": "./babel-preset-react-app-override.mjs"
+      "require": "./lib/babel-preset-react-app-override.js",
+      "import": "./mjs-wrappers/babel-preset-react-app-override.mjs"
     }
   },
   "sideEffects": false,
