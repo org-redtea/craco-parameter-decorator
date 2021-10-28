@@ -1,6 +1,6 @@
 {
   "name": "@redtea/craco-parameter-decorator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This craco plugin will set up babel-plugin-parameter-decorator for your project.",
   "type": "commonjs",
   "types": "/index.d.ts",
