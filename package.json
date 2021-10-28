@@ -4,7 +4,7 @@
   "description": "This craco plugin will set up babel-plugin-parameter-decorator for your project.",
   "type": "commonjs",
   "types": "/index.d.ts",
-  "main": "./index.js",
+  "main": "./lib/index.js",
   "exports": {
     ".": {
       "require": "./lib/index.js",
